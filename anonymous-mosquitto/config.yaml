@@ -1,9 +1,9 @@
 ---
-version: 6.4.1
-slug: anonymous_mosquitto
+version: 1.0.0
 name: Anonymous Mosquitto broker
+slug: anonymous_mosquitto
 description: An Open Source MQTT broker with Anonymous mode support
-url: https://github.com/antst/hass_addons/tree/master/anonymous_mosquitto
+url: https://github.com/antst/hass_addons/tree/master/anonymous-mosquitto
 arch:
   - armhf
   - armv7
@@ -13,13 +13,13 @@ arch:
 auth_api: true
 discovery:
   - mqtt
-image: antst/{arch}-addon-anonymous_mosquitto
+image: antst/{arch}-addon-anonymous-mosquitto
 map:
   - ssl
   - share
 options:
   logins: []
-  anonymous: false
+  anonymous: true
   require_certificate: false
   certfile: fullchain.pem
   keyfile: privkey.pem
