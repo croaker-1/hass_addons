@@ -1,5 +1,5 @@
 ---
-version: 1.0.4
+version: 1.0.5
 name: Anonymous Mosquitto broker
 slug: anonymous_mosquitto
 description: An Open Source MQTT broker. Clone of official addon, but with enabled back option for anonymous mode.
