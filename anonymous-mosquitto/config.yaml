@@ -2,7 +2,7 @@
 version: 1.0.0
 name: Anonymous Mosquitto broker
 slug: anonymous_mosquitto
-description: An Open Source MQTT broker with Anonymous mode support
+description: An Open Source MQTT broker. Clone of official addon, but with enabled back option for anonymous mode.
 url: https://github.com/antst/hass_addons/tree/master/anonymous-mosquitto
 arch:
   - armhf
