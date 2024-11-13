@@ -20,11 +20,8 @@ persistence_location /data/
 max_queued_messages 8192
 
 # Anonimous authentitication
-{{ if .anonymous }}
-allow_anonymous  true
-{{ else }}
-allow_anonymous  false
-{{ end }}
+
+allow_anonymous  {{ .anonymous }}
 
 # Authentication plugin
 auth_plugin /usr/share/mosquitto/go-auth.so
