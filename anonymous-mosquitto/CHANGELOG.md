@@ -4,5 +4,5 @@
 
 - Initial version, fork of official add-on v6.4.1. 
 
-## 1.0.1
+## 1.0.2
  - 
