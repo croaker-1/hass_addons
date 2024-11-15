@@ -1,0 +1,25 @@
+---
+version: 1.0.0
+name: OpenTherm Monitor
+slug: otmonitor
+description: OpenTherm Monitor to monitor and control OTGW device
+url: https://github.com/antst/hass_addons/tree/master/otmonitor
+arch:
+  - armhf
+  - aarch64
+  - amd64
+  - i386
+image: antst/{arch}-addon-otmonitor
+ports:
+  8080/tcp: 8080
+  7686/tcp: 7686
+ports_description:
+  8080/tcp: Web-server port
+  7686/tcp: Relay port
+services:
+  - otmonitor:provide
+startup: services
+schema:
+  additional_options: str?
+watchdog: http://[HOST]:8080
+init: false
