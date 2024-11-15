@@ -1,11 +1,10 @@
 ---
-version: 1.0.0
+version: "1.0.1"
 name: OpenTherm Monitor
 slug: otmonitor
 description: OpenTherm Monitor to monitor and control OTGW device
-url: https://github.com/antst/hass_addons/tree/master/otmonitor
+url: "https://github.com/antst/hass_addons/tree/master/otmonitor"
 arch:
-  - armhf
   - aarch64
   - amd64
   - i386

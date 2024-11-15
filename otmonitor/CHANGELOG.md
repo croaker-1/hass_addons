@@ -4,3 +4,5 @@
 
 - Initial version 
 
+## 1.0.1
+- Disable ARMHF build
