@@ -15,8 +15,6 @@ ports:
 ports_description:
   8080/tcp: Web-server port
   7686/tcp: Relay port
-services:
-  - otmonitor:provide
 startup: services
 schema:
   additional_options: str?
