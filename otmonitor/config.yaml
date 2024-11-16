@@ -1,5 +1,5 @@
 ---
-version: "1.0.1"
+version: "1.0.2"
 name: OpenTherm Monitor
 slug: otmonitor
 description: OpenTherm Monitor to monitor and control OTGW device
