@@ -19,7 +19,7 @@ startup: application
 boot: auto
 ingress: true
 timeout: 30
-panel_icon:
+panel_icon: mdi:water-boiler
 services:
   - mqtt:need
 schema:
