@@ -21,7 +21,7 @@ ingress: true
 timeout: 30
 panel_icon:
 services:
-  mqtt:need
+  - mqtt:need
 schema:
   additional_options: str?
 watchdog: http://[HOST]:8099
