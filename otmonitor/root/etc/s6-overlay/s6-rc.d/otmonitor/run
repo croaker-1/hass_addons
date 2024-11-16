@@ -5,4 +5,4 @@ additional_options=$(bashio::config 'additional_options')
 
 bashio::log.info 'Started otmonitor'
 # shellcheck disable=SC2086
-/usr/local/bin/otmonitor -a --daemon --system -w 8080 -p 7686 -f $additional_options
+/usr/local/bin/otmonitor -a --daemon --system -w 8099 -p 7686 -f $additional_options

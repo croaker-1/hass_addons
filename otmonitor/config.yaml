@@ -10,12 +10,18 @@ arch:
   - i386
 image: antst/{arch}-addon-otmonitor
 ports:
-  8080/tcp: 8080
+  8099/tcp: null
   7686/tcp: 7686
 ports_description:
-  8080/tcp: Web-server port
+  8099/tcp: Web-server port
   7686/tcp: Relay port
-startup: services
+startup: application
+boot: auto
+ingress: true
+timeout: 30
+panel_icon:
+services:
+  mqtt:need
 schema:
   additional_options: str?
 watchdog: http://[HOST]:8080
